@@ -47,7 +47,7 @@
 
           for(let j = 0 ; j<await values.count()-1 ; j++)
           {
-            console.log(await values.nth(j).textContent());
+            console.log(await values.nth(j).textContent())
           }
     }
 
@@ -68,5 +68,5 @@
         })
 
 
-        await matched.locator('input').check();
+        await matched.locator('input').check()
  }
